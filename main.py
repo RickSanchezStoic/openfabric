@@ -23,7 +23,7 @@ def config(configuration: Dict[str, ConfigClass], state: State):
 # Callback function called on each execution pass
 ############################################################
 def execute(request: SimpleText, ray: Ray, state: State) -> SimpleText:
-    model_name = "ixa-ehu/SciBERT-SQuAD-QuAC" # change for different model
+    model_name = "deepset/roberta-base-squad2" # change for different model
     nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
 
     QA_input = {'question':"",'context':""} # dictionary with question and context as keys
