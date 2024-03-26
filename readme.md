@@ -6,3 +6,4 @@ The model has been pre-trained on SQUAD2(Stanford Question Answering Dataset). T
 as input. For the chatbot to function, we use wikipedia as the source for context related to the question. This allows 
 the model to get accurate response for the question at hand.
 
+Loom video : https://www.loom.com/share/5c3f3faea26c4ad788e819b9f636b0ac?sid=f8a4bd85-35b7-4823-82f7-bf58a8752440
